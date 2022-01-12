@@ -1,5 +1,5 @@
 :root {
-  font-family: "Comfortaa", cursive;
+  --primary-font-family: "Comfortaa", cursive;
   --secondary-font-family: "Montserrat", sans-serif;
   --primary-color: #f77059;
   --secondary-color: #f0a958;
@@ -75,10 +75,6 @@ img {
 
 .navbar-brand {
   color: #fc759d !important;
-}
-
-.email-footer {
-  text-align: left;
 }
 
 .footer {

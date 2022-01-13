@@ -74,8 +74,7 @@ img {
   /* color: #fc759d !important; */
   font-family: var(--primary-font-family);
 }
-.content {
-  vertical-align: middle;
+.hero {
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -87,12 +86,6 @@ img {
   background-size: cover;
 } */
 
-/* .hero {
-  margin: 0 auto;
-  text-align: center;
-  padding: 175px;
-} */
-
 .footer {
   font-family: var(--primary-font-family);
   padding: 20px;
@@ -100,7 +93,7 @@ img {
   background-color: #212529;
 }
 .footer a {
-  color: var(--secondary-color);
+  color: #f65282;
 }
 
 .footer a:hover {

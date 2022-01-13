@@ -36,6 +36,10 @@ h1 {
   text-align: left;
 }
 
+.about-description p {
+  line-height: 2;
+}
+
 h2 {
   font-size: 48px;
 }

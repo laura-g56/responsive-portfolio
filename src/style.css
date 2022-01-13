@@ -1,6 +1,6 @@
 :root {
   --primary-font-family: "Comfortaa", cursive;
-  --secondary-font-family: "Montserrat", sans-serif;
+  --secondary-font-family: "Open Sans", sans-serif;
   --primary-color: #f77059;
   --secondary-color: #f0a958;
 }
@@ -40,6 +40,10 @@ h1 {
   line-height: 2;
 }
 
+.about-description a {
+  text-decoration: underline;
+}
+
 h2 {
   font-size: 48px;
 }
@@ -72,6 +76,8 @@ p {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
+  letter-spacing: 0.15em;
+  font-weight: 300;
 }
 
 img {
@@ -126,7 +132,11 @@ img {
 }
 
 .footer a:hover {
-  color: #2bd3cb;
+  color: var(--secondary-color);
   cursor: pointer;
   text-decoration: none;
+}
+
+.social a:hover {
+  color: #9c9d9e !important;
 }

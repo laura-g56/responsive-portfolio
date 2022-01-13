@@ -12,20 +12,22 @@ html {
 body {
   margin-top: 100px;
   color: white;
-  font-family: var(--primary-font-family);
   text-align: center;
-  background: rgb(0, 0, 0);
+  background: #05090e;
+  /* background-image: linear-gradient(180deg, #212529, 75%, #004770); */
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+  font-family: var(--primary-font-family);
 }
 
 h1 {
-  font-size: 80px;
   color: var(--primary-color);
+  font-size: 80px;
+  letter-spacing: 0.1em;
 }
 
 .about-h1 {
@@ -56,13 +58,8 @@ h4 {
   text-align: left;
 }
 
-h5 {
-}
-
-h6 {
-}
-
 p {
+  font: var(--secondary-font-family);
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
@@ -74,10 +71,30 @@ img {
 }
 
 .navbar-brand {
-  color: #fc759d !important;
+  /* color: #fc759d !important; */
+  font-family: var(--primary-font-family);
+}
+.content {
+  vertical-align: middle;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
+/* .background-image {
+  background-image: url(/images/hero-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* .hero {
+  margin: 0 auto;
+  text-align: center;
+  padding: 175px;
+} */
+
 .footer {
+  font-family: var(--primary-font-family);
   padding: 20px;
   text-align: left;
   background-color: #212529;

@@ -86,15 +86,36 @@ img {
 }
 
 .navbar-brand {
-  /* color: #fc759d !important; */
   font-family: var(--primary-font-family);
 }
+
+.nav-logo {
+  font-family: var(--secondary-font-family) !important;
+}
+.nav-logo:hover {
+  display: block;
+  color: #fc759d !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
+
 .hero {
   padding-top: 150px;
-  padding-bottom: 250px;
+  padding-bottom: 275px;
 }
 .hero h1 {
-  font-size: 80px;
+  font-size: 85px;
+}
+.hero h2 {
+  font-size: 35px;
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  line-height: 2;
+}
+
+.hero h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
 }
 
 /* .background-image {
@@ -111,6 +132,9 @@ img {
 .card a {
   text-decoration: none;
   color: #9c9d9e;
+}
+.card img {
+  border-radius: 0px;
 }
 .card-link {
   text-decoration: none;
@@ -130,11 +154,18 @@ img {
 .footer a {
   color: #f65282;
 }
-
 .footer a:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   cursor: pointer;
   text-decoration: none;
+}
+
+a.email-link {
+  color: white;
+}
+a.email-link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .social a:hover {

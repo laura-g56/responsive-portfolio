@@ -49,8 +49,14 @@ h1 {
   padding-right: 50px;
 }
 
-.about-description a {
-  text-decoration: underline;
+.contact-link {
+  font-family: var(--primary-font-family);
+  text-decoration: none;
+  color: var(--typical-grey);
+}
+
+.contact-link:hover {
+  color: var(--secondary-color);
 }
 
 h2 {
@@ -223,15 +229,6 @@ a.email-link:hover {
 
 .social a:hover {
   color: var(--typical-grey) !important;
-}
-
-.contact-link {
-  text-decoration: none;
-  color: var(--typical-grey);
-}
-
-.contact-link:hover {
-  color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {

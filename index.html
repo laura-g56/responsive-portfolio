@@ -25,7 +25,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-color">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand nav-logo text-uppercase ms-3 mt-1" href="/" title="Laura's Homepage">LG
         <!-- <img src="/images/logo-1.jpg" alt="Laura Gumienik" width="30" height="30" /> -->
@@ -53,11 +53,10 @@
     </div>
   </nav>
   
-  <header class="container hero background-image">
+  <header class="container hero">
     <section>
       <h2 class="text-center">Welcome to the portfolio of</h2>
       <h1 class="text-center">Laura Gumienik</h1>
-      <br />
       <h3 class="text-center">Front-End Developer | Based in Australia</h3>
       <br />
       <a href="#who-home" class="scroll">
@@ -81,7 +80,7 @@
       </div>
       <div class="who-home col-md-6">
         <div class="d-flex justify-content-center">
-        <img src="/images/home.jpg" class="img-fluid" alt="About" height="275" width="275"/>
+        <img src="/images/home.jpg" class="img-fluid d-none d-lg-block" alt="About" height="275" width="275"/>
         </div>
       </div>
     </div>
@@ -91,28 +90,28 @@
 <section class="works" id="works">
   <div class="row h-100">
     <div class="col-md-6">
-      <img src="/images/coding-background.jpg" class="img-fluid">
+      <img src="/images/coding-background.jpg" class="img-fluid d-none d-lg-block">
     </div>
     <div class="col-md-6">
       <div class="d-flex justify-content-end">
       <h5>Latest Projects</h5>
     </div>
       <p>
-        I have produced a Weather App and a Dictionary App, both for desktop use utilising a combination of advanced HTML, CSS, JavaScript and React. 
+        I have produced a Weather App and a Dictionary App, both for desktop utilising a combination of advanced HTML, CSS, JavaScript, and React. 
         These were my final projects as part of various SheCodes courses I have completed to date.
       </p>
       <div class="d-flex justify-content-end">
-        <a href="/projects.html" class="btn btn-branding">Take a look  ↓</a>
+        <a href="/projects.html" class="btn btn-branding">Take a look</a>
       </div>
     </div>
   </div>
 </section>
 
-  <div class="container-fluid pb-0 mb-0 text-light bg-dark navbar-color">
+  <div class="container-fluid pb-0 mb-0 text-light bg-dark">
     <div class="footer">
       <footer>
         <div class="row pt-2 pb-2">
-          <div class="col-sm-6 offset-sm-2 offset-md-0 col-12 my-md-0 mt-5 order-sm-1 order-2 align-self-end">
+          <div class="col-sm-6 offset-sm-2 offset-md-0 col-12 pt-2 my-md-0 mt-5 order-sm-1 order-2 align-self-end">
             <p class="social text-muted mb-1 pb-1 bold-text">
               <span class="mx-3"><a class="text-white" href="#" target="_blank" rel="noopener" title="Facebook Profile">
                   <i class="fab fa-facebook" aria-hidden="true"></i></a></span>
@@ -123,16 +122,18 @@
               <span class="mx-3"><a class="text-white" href="" target="_blank" rel="noopener" title="Pinterest Profile"><i
                     class="fab fa-pinterest"></i></a></span>
             </p>
-            <small class="footer-coded">© 2022 Coded by
-              <a href="https://github.com/laura-g56/responsive-portfolio" title="Github" target="_blank">Laura</a></small>
+            <small>© 2022 Coded by
+              <a href="https://github.com/laura-g56/responsive-portfolio" title="Github" target="_blank">Laura</a>
+            </small>
           </div>
           <div class="col-sm-6 col-12 my-2 my-lg-0 order-1 align-self-end text-end ">
             <h7 class="mt-55 mt-2 text-muted bold-text">
               <b class="text-uppercase">Laura Gumienik</b>
             </h7>
-            <small><span class="email-footer"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <small><span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
               <a class="text-white email-link" href="mailto:laura_g56@hotmail.com"
-                title="Email Laura">laura_g56@hotmail.com</a></small>
+                title="Email Laura">laura_g56@hotmail.com</a>
+              </small>
           </div>
         </div>
       </footer>
@@ -142,45 +143,45 @@
   </html>
 
   <!-- 
-  <div class="container mt-5 mb-5">
-    <div class="row cards">
-      <div class="col-sm-4">
-        <div class="card text-white bg-dark border-0 border-dark mt-1 mb-1">
-          <img src="/images/coding-background.jpg" class="card-img-top" alt="Get to know a bit about Laura" />
-          <div class="card-body">
-            <h6 class="card-title text-uppercase">Welcome </h6>
-            <p class="card-text">
-              Hello and welcome to my website, I hope you enjoy it! This is where you can find more about me and my latest
-              projects.
-            </p>
-            <a href="/about.html" title="About Me" class="card-link">Learn more →</a>
-          </div>
-        </div>
-      </div>
-          <div class="col-sm-4">
-            <div class="card text-white bg-dark border-0 border-dark mt-1 mb-1">
-          <img src="/images/skillset.jpg" class="card-img-top" alt="Find out about Laura's coding experience" />
-          <div class="card-body">
-            <h6 class="card-title text-uppercase">Experience </h6>
-            <p class="card-text">
-              After completing my coding courses through SheCodes, I have gained knowledge and confidence in various languages.
-            </p>
-            <a href="/skills.html" title="Skillset" class="card-link">View skillset →</a>
-          </div>
-        </div>
-      </div>
-          <div class="col-sm-4">
-            <div class="card text-white bg-dark border-0 border-dark mt-1 mb-1">
-          <img src="/images/projects.jpg" class="card-img-top" alt="Get to know a bit about Laura" />
-          <div class="card-body">
-            <h6 class="card-title text-uppercase">Works </h6>
-            <p class="card-text">
-              Take a peak at a range of exciting projects I've produced throughout my coding studies. 
-              It was a lot of fun!
-            </p>
-            <a href="/projects.html" title="Laura's Projects" class="card-link">Discover more →</a>
-          </div>
+<div class="container mt-5 mb-5">
+  <div class="row cards">
+    <div class="col-sm-4">
+      <div class="card text-white bg-dark border-0 border-dark mt-1 mb-1">
+        <img src="/images/coding-background.jpg" class="card-img-top" alt="Get to know a bit about Laura" />
+        <div class="card-body">
+          <h6 class="card-title text-uppercase">Welcome </h6>
+          <p class="card-text">
+            Hello and welcome to my website, I hope you enjoy it! This is where you can find more about me and my latest
+            projects.
+          </p>
+          <a href="/about.html" title="About Me" class="card-link">Learn more →</a>
         </div>
       </div>
     </div>
-  </div> -->
+        <div class="col-sm-4">
+          <div class="card text-white bg-dark border-0 border-dark mt-1 mb-1">
+        <img src="/images/skillset.jpg" class="card-img-top" alt="Find out about Laura's coding experience" />
+        <div class="card-body">
+          <h6 class="card-title text-uppercase">Experience </h6>
+          <p class="card-text">
+            After completing my coding courses through SheCodes, I have gained knowledge and confidence in various languages.
+          </p>
+          <a href="/skills.html" title="Skillset" class="card-link">View skillset →</a>
+        </div>
+      </div>
+    </div>
+        <div class="col-sm-4">
+          <div class="card text-white bg-dark border-0 border-dark mt-1 mb-1">
+        <img src="/images/projects.jpg" class="card-img-top" alt="Get to know a bit about Laura" />
+        <div class="card-body">
+          <h6 class="card-title text-uppercase">Works </h6>
+          <p class="card-text">
+            Take a peak at a range of exciting projects I've produced throughout my coding studies. 
+            It was a lot of fun!
+          </p>
+          <a href="/projects.html" title="Laura's Projects" class="card-link">Discover more →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->

@@ -3,7 +3,8 @@
   --secondary-font-family: "Open Sans", sans-serif;
   --primary-color: #f77059;
   --secondary-color: #f0a958;
-  --teriary-colour: #f65282;
+  --tertiary-color: #f65282;
+  --typical-grey: #9c9d9e;
 }
 
 html {
@@ -19,9 +20,15 @@ body {
   /* background-image: linear-gradient(180deg, #212529, 75%, #004770); */
 }
 
+html,
+body,
+.hero {
+  height: 100%;
+}
+
 section {
   text-align: left;
-  height: 650px;
+  height: 700px;
   width: 100%;
 }
 
@@ -40,8 +47,6 @@ h1 {
 }
 
 .about-h1 {
-  font-size: 60px;
-  color: var(--primary-color);
   text-align: left;
 }
 
@@ -76,7 +81,7 @@ h4 {
   font-size: 28px;
   line-height: 21px;
   letter-spacing: 0.1em;
-  color: var(--teriary-colour);
+  color: var(--tertiary-color);
   text-transform: uppercase;
   text-align: left;
 }
@@ -85,7 +90,7 @@ h5 {
   font-family: var(--primary-font-family);
   text-align: left;
   font-size: 45px;
-  color: var(--teriary-colour);
+  color: var(--tertiary-color);
 }
 
 h6 {
@@ -122,7 +127,7 @@ img {
 }
 .nav-logo:hover {
   display: block;
-  color: var(--teriary-colour) !important;
+  color: var(--tertiary-color) !important;
   text-decoration: none;
   transition: color 0.15s ease-in-out;
 }
@@ -132,6 +137,7 @@ img {
 }
 .hero h1 {
   font-size: 85px;
+  padding-bottom: 20px;
 }
 .hero h2 {
   font-size: 35px;
@@ -166,7 +172,7 @@ section.who-home {
 
 section.works {
   float: right;
-  padding: 200px 100px 100px 100px;
+  padding: 150px 100px 100px 100px;
   background-color: black;
 }
 .works h5 {
@@ -198,7 +204,7 @@ section.works {
 
 .btn-branding:hover {
   color: white;
-  background-color: #9c9d9e;
+  background-color: var(--typical-grey);
 }
 
 .cards .card {
@@ -207,14 +213,14 @@ section.works {
 
 .card a {
   text-decoration: none;
-  color: #9c9d9e;
+  color: var(--typical-grey);
 }
 .card img {
   border-radius: 0px;
 }
 .card-link {
   text-decoration: none;
-  color: #9c9d9e;
+  color: var(--typical-grey);
 }
 .card-link:hover {
   text-decoration: none;
@@ -222,13 +228,14 @@ section.works {
 }
 
 .footer {
+  margin-top: 50px;
   font-family: var(--primary-font-family);
   padding: 20px;
   text-align: left;
   background-color: #212529;
 }
 .footer a {
-  color: var(--teriary-colour);
+  color: var(--tertiary-color);
 }
 .footer a:hover {
   color: var(--primary-color);
@@ -245,5 +252,44 @@ a.email-link:hover {
 }
 
 .social a:hover {
-  color: #9c9d9e !important;
+  color: var(--typical-grey) !important;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
+  h1 {
+    padding-bottom: 35px;
+    font-size: 55px;
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h6 {
+    margin: 50px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+  }
+
+  .btn-branding {
+    border-radius: 50px;
+    background: var(--primary-color);
+    color: black;
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 18px;
+    margin-top: 20px;
+  }
 }

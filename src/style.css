@@ -1,9 +1,9 @@
 :root {
-  --primary-font-family: "Comfortaa", cursive;
-  --secondary-font-family: "Open Sans", sans-serif;
+  --main-heading-font: "Comfortaa", cursive;
+  --secondary-font: "Open Sans", sans-serif;
   --primary-color: #f77059;
-  --secondary-color: #f0a958;
-  --tertiary-color: #f65282;
+  --secondary-color: #f65282;
+  --hover-color: #f0a958;
   --typical-grey: #9c9d9e;
 }
 
@@ -31,7 +31,7 @@ h2,
 h3,
 h6 {
   margin: 0;
-  font-family: var(--primary-font-family);
+  font-family: var(--main-heading-font);
 }
 
 h1 {
@@ -50,13 +50,13 @@ h1 {
 }
 
 .contact-link {
-  font-family: var(--primary-font-family);
+  font-family: var(--main-heading-font);
   text-decoration: none;
   color: var(--typical-grey);
 }
 
 .contact-link:hover {
-  color: var(--secondary-color);
+  color: var(--hover-color);
 }
 
 h2 {
@@ -76,21 +76,22 @@ h3 {
 h4 {
   margin-top: 50px;
   margin-bottom: 20px;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 21px;
   letter-spacing: 0.1em;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
   text-transform: uppercase;
   text-align: left;
 }
 
 h5 {
-  font-family: var(--primary-font-family);
+  font-family: var(--main-heading-font);
   text-align: left;
   font-size: 45px;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 h6 {
@@ -105,7 +106,7 @@ h7 {
 }
 
 p {
-  font: var(--secondary-font-family);
+  font: var(--secondary-font);
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
@@ -119,15 +120,15 @@ img {
 }
 
 .navbar-brand {
-  font-family: var(--primary-font-family);
+  font-family: var(--main-heading-font);
 }
 
 .nav-logo {
-  font-family: var(--secondary-font-family) !important;
+  font-family: var(--secondary-font) !important;
 }
 .nav-logo:hover {
   display: block;
-  color: var(--tertiary-color) !important;
+  color: var(--secondary-color) !important;
   text-decoration: none;
   transition: color 0.15s ease-in-out;
 }
@@ -141,13 +142,13 @@ img {
 }
 .hero h2 {
   font-size: 35px;
-  font-family: var(--secondary-font-family);
+  font-family: var(--secondary-font);
   font-weight: 300;
   line-height: 2;
 }
 
 .hero h3 {
-  font-family: var(--secondary-font-family);
+  font-family: var(--secondary-font);
   font-weight: 300;
 }
 
@@ -155,16 +156,16 @@ img {
   text-decoration: none;
 }
 
-section.who-home {
+section.who {
   padding: 150px 100px 100px 100px;
   background-color: #212529;
 }
 
-.who-home p {
+.who p {
   line-height: 2;
   padding-top: 20px;
 }
-.who-home img {
+.who img {
   border-radius: 10px;
   border-color: black;
   box-shadow: #252525 4px 4px 5px;
@@ -191,7 +192,7 @@ section.works {
   border-radius: 50px;
   background: var(--primary-color);
   color: black;
-  font-family: var(--primary-font-family);
+  font-family: var(--main-heading-font);
   font-size: 18px;
   font-weight: 500;
   padding: 12px 18px;
@@ -205,13 +206,13 @@ section.works {
 
 .footer {
   margin-top: 50px;
-  font-family: var(--primary-font-family);
+  font-family: var(--main-heading-font);
   padding: 20px;
   text-align: left;
   background-color: #212529;
 }
 .footer a {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 .footer a:hover {
   color: var(--primary-color);
@@ -231,7 +232,9 @@ a.email-link:hover {
   color: var(--typical-grey) !important;
 }
 
+
 @media (max-width: 576px) {
+  
   .hero h1 {
     padding-bottom: 10px;
     font-size: 45px;
@@ -274,7 +277,80 @@ a.email-link:hover {
   }
 
   p {
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.15em;
+  }
+
+  section.who {
+    padding: 100px 50px;
+  }
+
+  section.works {
+    padding: 100px 50px;
+  }
+  .btn-branding {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+    margin-top: 15px;
+  }
+  .social {
+    font-size: 14px;
+    text-align: center;
+  }
+  .row {
+    text-align: center;
+  }
+  img.about-photo {
+    border-radius: 50%;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .hero h1 {
+    padding-bottom: 10px;
+    font-size: 45px;
+    line-height: 1.25;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .hero h3 {
+    font-size: 12px;
+  }
+
+  h1 {
+    padding-bottom: 10px;
+    font-size: 45px;
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    margin: 50px;
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.15em;
   }
@@ -292,7 +368,10 @@ a.email-link:hover {
     padding: 10px 16px;
     margin-top: 15px;
   }
-}
+  .social {
+    font-size: 16px;
+  }
+} */
 
 /* 
 .cards .card {
@@ -312,5 +391,5 @@ a.email-link:hover {
 }
 .card-link:hover {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--hover-color);
 } */

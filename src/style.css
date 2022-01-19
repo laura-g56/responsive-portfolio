@@ -123,7 +123,10 @@ img {
 }
 
 .nav-logo {
-  font-family: var(--secondary-font) !important;
+  font-family: "Lobster", cursive !important;
+  font-size: 35px;
+  /* color: #fdf905 !important; */
+  padding: 0;
 }
 
 .nav-logo img {
@@ -134,10 +137,12 @@ img {
 }
 
 .nav-logo:hover {
-  display: block;
-  color: var(--secondary-color) !important;
   text-decoration: none;
-  transform: scale(1.08);
+  transform: scale(1.15);
+}
+
+.page-title {
+  margin-top: 50px;
 }
 
 .hero {
@@ -211,6 +216,39 @@ section.works {
   background-color: var(--typical-grey);
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - 75px);
+}
+.contact-section p {
+  font-size: 14px;
+}
+.contact-section {
+  height: 550px;
+  width: 100%;
+}
+.contact-details {
+  font-family: var(--secondary-font);
+}
+.contact-icons {
+  padding-right: 5px;
+}
+
+.form-group {
+  width: 600px;
+}
+
+.btn-submit {
+  width: 600px !important;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - 75px);
+}
+
 .footer {
   margin-top: 50px;
   font-family: var(--main-heading-font);
@@ -218,6 +256,7 @@ section.works {
   text-align: left;
   background-color: #212529;
 }
+
 .footer a {
   color: var(--secondary-color);
 }

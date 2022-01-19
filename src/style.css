@@ -118,12 +118,22 @@ img {
   opacity: 0.9;
 }
 
+.page-title {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+/* .navbar::after {
+  box-shadow: rgba(92, 92, 92, 0.2) 0px 10px 10px 0;
+} */
+
 .navbar-brand {
   font-family: var(--main-heading-font);
 }
 
 .nav-logo {
-  font-family: "Lobster", cursive !important;
+  /* font-family: "Lobster", cursive !important; */
+  font-family: "Lobster Two", cursive !important;
   font-size: 35px;
   /* color: #fdf905 !important; */
   padding: 0;
@@ -139,10 +149,6 @@ img {
 .nav-logo:hover {
   text-decoration: none;
   transform: scale(1.15);
-}
-
-.page-title {
-  margin-top: 50px;
 }
 
 .hero {
@@ -216,11 +222,18 @@ section.works {
   background-color: var(--typical-grey);
 }
 
-.contact-container {
+.about-container,
+.contact-container,
+.project-container {
   display: flex;
   flex-direction: column;
   min-height: calc(100% - 75px);
 }
+
+.project-container h1 {
+  text-align: right;
+}
+
 .contact-section p {
   font-size: 14px;
 }
@@ -235,18 +248,16 @@ section.works {
   padding-right: 5px;
 }
 
+.fa-envelope {
+  padding-right: 5px;
+}
+
 .form-group {
   width: 600px;
 }
 
 .btn-submit {
   width: 600px !important;
-}
-
-.about-container {
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100% - 75px);
 }
 
 .footer {

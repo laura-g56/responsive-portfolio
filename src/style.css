@@ -78,6 +78,11 @@ h3 {
   line-height: 2.5;
 }
 
+p.project-description {
+  text-align: right;
+  line-height: 2.5;
+}
+
 h4 {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -157,7 +162,7 @@ img {
 }
 
 a.active {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero {
@@ -215,6 +220,10 @@ section.works {
   border-radius: 3px;
 }
 
+section.project-container {
+  padding: 150px 100px 100px 100px;
+}
+
 .btn-branding {
   border-radius: 50px;
   background: var(--primary-color);
@@ -237,6 +246,10 @@ section.works {
   display: flex;
   flex-direction: column;
   min-height: calc(100% - 75px);
+}
+
+.project-container {
+  margin-right: 50px;
 }
 
 .project-container h1 {

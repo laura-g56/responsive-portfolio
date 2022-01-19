@@ -73,6 +73,11 @@ h3 {
   line-height: 2.5;
 }
 
+.projects-h3 {
+  text-align: right;
+  line-height: 2.5;
+}
+
 h4 {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -149,6 +154,10 @@ img {
 .nav-logo:hover {
   text-decoration: none;
   transform: scale(1.15);
+}
+
+a.active {
+  font-weight: 500;
 }
 
 .hero {

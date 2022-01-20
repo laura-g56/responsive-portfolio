@@ -78,9 +78,16 @@ h3 {
   line-height: 2.5;
 }
 
-p.project-description {
+p.project-description-right {
   text-align: right;
   line-height: 2.5;
+  margin-top: 20px;
+}
+
+p.project-description-left {
+  text-align: left;
+  line-height: 2.5;
+  margin-top: 20px;
 }
 
 h4 {
@@ -226,11 +233,20 @@ section.works {
   border-bottom-right-radius: 200px 200px;
   border-top-right-radius: 200px 200px;
   margin-left: -115px;
-  
 }
 
-section.project-container {
+section.projects {
   padding: 150px 100px 100px 100px;
+}
+
+section.weather-app {
+  padding: 150px 100px 100px 100px;
+  background-color: black;
+  text-align: right;
+}
+
+.portfolio-header {
+  padding-bottom: 50px;
 }
 
 .btn-branding {

@@ -124,9 +124,14 @@ p {
 }
 
 img {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   opacity: 0.9;
 }
+
+/* .image-crop img {
+  border-radius: 235px !important;
+  margin-left: -250px;
+} */
 
 .page-title {
   margin-top: 50px;
@@ -217,7 +222,11 @@ section.works {
 
 .works img {
   max-width: 100%;
-  border-radius: 3px;
+  height: auto;
+  border-bottom-right-radius: 200px 200px;
+  border-top-right-radius: 200px 200px;
+  margin-left: -115px;
+  
 }
 
 section.project-container {

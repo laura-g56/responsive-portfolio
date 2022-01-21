@@ -15,7 +15,7 @@ html {
 body {
   margin-top: 100px;
   color: white;
-  text-align: center;
+  /* text-align: center; */
   background: #05090e;
   /* background-image: linear-gradient(180deg, #212529, 75%, #004770); */
 }
@@ -235,12 +235,16 @@ section.works {
   margin-left: -115px;
 }
 
+img.about-photo {
+  border-radius: 15px;
+}
+
 section.projects {
-  padding: 150px 100px 100px 100px;
+  padding: 150px 0px 100px 0px;
 }
 
 section.weather-app {
-  padding: 150px 100px 100px 100px;
+  padding: 150px 0px 100px 0px;
   background-color: black;
   text-align: right;
 }
@@ -295,6 +299,11 @@ section.weather-app {
   padding-right: 5px;
 }
 
+a.contact-link:hover .arrow {
+  transform: translate(10px);
+  transition: 300ms ease-in-out;
+}
+
 .fa-envelope {
   padding-right: 5px;
 }
@@ -335,6 +344,8 @@ a.email-link:hover {
 .social a:hover {
   color: var(--typical-grey) !important;
 }
+
+/* RESPONSIVENESS */
 
 @media (max-width: 576px) {
   .hero h1 {

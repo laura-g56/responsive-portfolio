@@ -111,9 +111,8 @@ h5 {
 }
 
 h6 {
-  text-align: center;
   color: #4f5050;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 h7 {
@@ -196,9 +195,29 @@ a.active {
   font-weight: 300;
 }
 
+.hero h6 {
+  margin-top: 100px;
+}
+
+.hero-scroll {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 100px;
+}
+
 .scroll {
   text-decoration: none;
 }
+
+/* .scroll-left {
+  text-decoration: none;
+  text-align: left;
+}
+
+.scroll-right {
+  text-decoration: none;
+  text-align: right;
+} */
 
 section.who {
   padding: 150px 100px 100px 100px;
@@ -216,8 +235,7 @@ section.who {
 }
 
 section.works {
-  padding: 150px 100px 100px 100px;
-  background-color: black;
+  padding: 150px 100px 0px 100px;
   text-align: right;
 }
 
@@ -245,8 +263,12 @@ section.projects {
 
 section.weather-app {
   padding: 150px 0px 100px 0px;
-  background-color: black;
+  /* background-color: #212529; */
   text-align: right;
+}
+
+section.dictionary-app {
+  padding: 150px 0px 0px 0px;
 }
 
 .portfolio-header {
@@ -285,6 +307,7 @@ section.weather-app {
   text-align: right;
 }
 
+
 .contact-section p {
   font-size: 14px;
 }
@@ -301,7 +324,7 @@ section.weather-app {
 
 a.contact-link:hover .arrow {
   transform: translate(10px);
-  transition: 300ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 
 .fa-envelope {
@@ -317,7 +340,7 @@ a.contact-link:hover .arrow {
 }
 
 .footer {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: var(--main-heading-font);
   padding: 20px;
   text-align: left;
@@ -403,6 +426,15 @@ a.email-link:hover {
   section.works {
     padding: 100px 50px;
   }
+
+  .form-group{
+  width: 300px;
+  }
+
+  .btn-submit {
+    width: 300px !important;
+  }
+
   .btn-branding {
     font-size: 14px;
     font-weight: 500;

@@ -205,9 +205,24 @@ a.active {
   margin-top: 100px;
 }
 
+
 .scroll {
   text-decoration: none;
+  /* writing-mode: vertical-rl;
+  text-orientation: mixed; */
 }
+
+/* .scroll::after {
+    content: "";
+    width: 2px;
+    height: 64px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -80px;
+} */
 
 /* .scroll-left {
   text-decoration: none;

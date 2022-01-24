@@ -93,7 +93,7 @@ p.project-description-left {
 h4 {
   margin-top: 50px;
   margin-bottom: 20px;
-  font-family: var(--secondary-font);
+  font-family: var(--main-heading-font);
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -132,6 +132,20 @@ p {
 img {
   /* border-radius: 15px; */
   opacity: 0.9;
+}
+
+img.wine {
+  opacity: 0.75;
+  border-radius: 30px;
+}
+
+img.weather {
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+img.dictionary {
+  border-radius: 30px;
 }
 
 /* .image-crop img {
@@ -205,7 +219,6 @@ a.active {
   margin-top: 100px;
 }
 
-
 .scroll {
   text-decoration: none;
   /* writing-mode: vertical-rl;
@@ -275,15 +288,18 @@ img.about-photo {
 section.projects {
   padding: 150px 0px 100px 0px;
 }
-
+section.wine-webpage {
+  padding: 150px 0px 0px 0px;
+  margin-left: 50px;
+}
 section.weather-app {
   padding: 150px 0px 100px 0px;
   /* background-color: #212529; */
-  text-align: right;
+  /* text-align: right; */
 }
-
 section.dictionary-app {
   padding: 150px 0px 0px 0px;
+  margin-left: 50px;
 }
 
 .portfolio-header {
@@ -321,7 +337,6 @@ section.dictionary-app {
 .project-container h1 {
   text-align: right;
 }
-
 
 .contact-section p {
   font-size: 14px;
@@ -443,8 +458,8 @@ a.email-link:hover {
     padding: 100px 50px;
   }
 
-  .form-group{
-  width: 300px;
+  .form-group {
+    width: 300px;
   }
 
   .btn-submit {
@@ -481,7 +496,6 @@ a.email-link:hover {
     padding: 10px;
     background-color: #212529;
   }
-
 }
 
 /* @media (max-width: 768px) {

@@ -125,7 +125,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   font-weight: 300;
 }
 
@@ -355,8 +355,8 @@ a.contact-link:hover .arrow {
 }
 
 .footer {
-  margin-top: 30px;
   font-family: var(--main-heading-font);
+  margin-top: 30px;
   padding: 20px;
   text-align: left;
   background-color: #212529;
@@ -416,6 +416,7 @@ a.email-link:hover {
 
   h4 {
     font-size: 18px;
+    margin-top: 20px;
   }
 
   h5 {
@@ -456,6 +457,13 @@ a.email-link:hover {
     padding: 10px 16px;
     margin-top: 15px;
   }
+
+  .contact-details p {
+    padding: 10px;
+    margin: 50px 5px 0px 5px;
+    font-size: 13px;
+  }
+
   .social {
     font-size: 14px;
     text-align: center;
@@ -466,6 +474,14 @@ a.email-link:hover {
   img.about-photo {
     border-radius: 50%;
   }
+
+  .footer {
+    margin-top: 15px;
+    font-family: var(--main-heading-font);
+    padding: 10px;
+    background-color: #212529;
+  }
+
 }
 
 /* @media (max-width: 768px) {

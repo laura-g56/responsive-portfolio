@@ -26,6 +26,12 @@ section {
   width: 100%;
 }
 
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -132,6 +138,10 @@ p {
 img {
   /* border-radius: 15px; */
   opacity: 0.9;
+}
+
+img.about-photo {
+  border-radius: 15px;
 }
 
 img.wine {
@@ -281,10 +291,6 @@ section.works {
   margin-left: -115px;
 }
 
-img.about-photo {
-  border-radius: 15px;
-}
-
 section.projects {
   padding: 150px 0px 100px 0px;
 }
@@ -293,8 +299,8 @@ section.wine-webpage {
   margin-left: 50px;
 }
 section.weather-app {
-  padding: 150px 0px 100px 0px;
-  /* background-color: #212529; */
+  padding: 150px 100px 100px 100px;
+  background-color: #212529;
   /* text-align: right; */
 }
 section.dictionary-app {
@@ -371,7 +377,7 @@ a.contact-link:hover .arrow {
 
 .footer {
   font-family: var(--main-heading-font);
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 20px;
   text-align: left;
   background-color: #212529;

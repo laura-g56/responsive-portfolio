@@ -15,7 +15,6 @@ html {
 body {
   margin-top: 100px;
   color: white;
-  /* text-align: center; */
   background: #05090e;
   /* background-image: linear-gradient(180deg, #212529, 75%, #004770); */
 }
@@ -25,6 +24,12 @@ section {
   height: 700px;
   width: 100%;
 }
+
+/* section.hero {
+  background-image: url("/images/coloured-bubbles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 .container-fluid {
   padding-left: 0rem;
@@ -59,10 +64,16 @@ h1 {
   font-family: var(--main-heading-font);
   text-decoration: none;
   color: var(--typical-grey);
+  margin-top: 15px !important;
 }
 
 .contact-link:hover {
   color: var(--hover-color);
+}
+
+a.contact-link:hover .arrow {
+  transform: translate(5px);
+  transition: 200ms ease-in-out;
 }
 
 h2 {
@@ -295,7 +306,7 @@ section.projects {
   padding: 150px 0px 100px 0px;
 }
 section.wine-webpage {
-  padding: 150px 0px 0px 0px;
+  padding: 150px 100px 100px 100px;
   margin-left: 50px;
 }
 section.weather-app {
@@ -304,7 +315,7 @@ section.weather-app {
   /* text-align: right; */
 }
 section.dictionary-app {
-  padding: 150px 0px 0px 0px;
+  padding: 150px 100px 100px 100px;
   margin-left: 50px;
 }
 
@@ -358,10 +369,6 @@ section.dictionary-app {
   padding-right: 5px;
 }
 
-a.contact-link:hover .arrow {
-  transform: translate(10px);
-  transition: 200ms ease-in-out;
-}
 
 .fa-envelope {
   padding-right: 5px;

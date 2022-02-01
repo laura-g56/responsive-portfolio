@@ -22,7 +22,7 @@ body {
 section {
   text-align: left;
   height: 700px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* section.hero {
@@ -188,7 +188,6 @@ img.dictionary {
 }
 
 .nav-logo {
-  /* font-family: "Lobster", cursive !important; */
   font-family: "Lobster Two", cursive !important;
   font-size: 35px;
   /* color: #fdf905 !important; */
@@ -250,31 +249,10 @@ a.active {
   text-orientation: mixed; */
 }
 
-/* .scroll::after {
-    content: "";
-    width: 2px;
-    height: 64px;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: -80px;
-} */
-
-/* .scroll-left {
-  text-decoration: none;
-  text-align: left;
-}
-
-.scroll-right {
-  text-decoration: none;
-  text-align: right;
-} */
-
 section.who {
   padding: 150px 100px 100px 100px;
   background-color: #212529;
+  overflow: hidden;
 }
 
 .who p {
@@ -292,6 +270,7 @@ section.who {
 section.works {
   padding: 150px 100px 0px 100px;
   text-align: right;
+  overflow: hidden;
 }
 
 .works p {
@@ -314,6 +293,7 @@ section.projects {
 
 .tools {
   padding: 50px 100px 50px 100px;
+  margin-top: 20px;
 }
 .tools-icon {
   color: var(--primary-color);
@@ -487,12 +467,68 @@ a.email-link:hover {
     letter-spacing: 0.15em;
   }
 
+  .page-title {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+  .project-container {
+    padding: 30px;
+  }
+
+  p.project-description-right {
+    text-align: left;
+    line-height: 2;
+    margin: 20px;
+  }
+
+  p.project-description-left {
+    text-align: left;
+    line-height: 2;
+    margin-top: 20px;
+  }
+
+  section.projects {
+    margin-right: 20px;
+  }
+
   section.who {
     padding: 100px 50px;
   }
 
   section.works {
     padding: 100px 50px;
+  }
+
+  section.wine-webpage {
+    padding: 0px 20px;
+    margin: 20px;
+  }
+
+  section.weather-app {
+    padding: 20px 20px;
+    margin: 20px;
+  }
+
+  section.dictionary-app {
+    padding: 0px 20px;
+    margin: 20px;
+  }
+
+  .tools {
+    padding: 50px 50px 50px 50px;
+  }
+
+  .tools-icon {
+    color: var(--primary-color);
+    font-size: 35px;
+    padding: 5px 5px;
+    margin-top: 10px;
+  }
+
+  section {
+    height: 500px;
+    width: 100%;
   }
 
   .form-group {

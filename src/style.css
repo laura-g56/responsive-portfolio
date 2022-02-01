@@ -207,12 +207,16 @@ img.dictionary {
   transform: scale(1.15);
 }
 
+.navbar-collapse {
+  text-align: center;
+}
+
 a.active {
   font-weight: 600;
 }
 
 .hero {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .hero h1 {
   font-size: 85px;
@@ -304,7 +308,6 @@ section.works {
   margin-left: -115px;
 }
 
-
 section.projects {
   padding: 150px 0px 100px 0px;
 }
@@ -313,18 +316,18 @@ section.projects {
   padding: 50px 100px 50px 100px;
 }
 .tools-icon {
-    color: var(--primary-color);
-    font-size: 45px;
-    padding: 15px 15px;
-    margin-top: 10px;
+  color: var(--primary-color);
+  font-size: 45px;
+  padding: 15px 15px;
+  margin-top: 10px;
 }
-.fab, .far {
-    font-weight: 400;
+.fab,
+.far {
+  font-weight: 400;
 }
 .skills-text {
-    text-align: center;
+  text-align: center;
 }
-
 
 section.wine-webpage {
   padding: 150px 100px 100px 100px;
@@ -390,7 +393,6 @@ section.dictionary-app {
 .contact-icons {
   padding-right: 5px;
 }
-
 
 .fa-envelope {
   padding-right: 5px;

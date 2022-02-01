@@ -139,7 +139,7 @@ h7 {
 
 p {
   font: var(--secondary-font);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   text-align: left;
   letter-spacing: 0.1em;
@@ -278,9 +278,11 @@ section.who {
   padding-top: 20px;
 }
 .who img {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border-color: black;
   box-shadow: #252525 4px 4px 5px;
+  border-radius: 80px;
+  height: auto;
 }
 
 section.works {
@@ -302,15 +304,35 @@ section.works {
   margin-left: -115px;
 }
 
+
 section.projects {
   padding: 150px 0px 100px 0px;
 }
+
+.tools {
+  padding: 50px 100px 50px 100px;
+}
+.tools-icon {
+    color: var(--primary-color);
+    font-size: 45px;
+    padding: 15px 15px;
+    margin-top: 10px;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.skills-text {
+    text-align: center;
+}
+
+
 section.wine-webpage {
   padding: 150px 100px 100px 100px;
   margin-left: 50px;
 }
 section.weather-app {
-  padding: 150px 100px 100px 100px;
+  padding: 100px 100px 200px 100px;
+  margin-bottom: 100px;
   background-color: #212529;
   /* text-align: right; */
 }

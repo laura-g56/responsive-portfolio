@@ -19,10 +19,13 @@ body {
   /* background-image: linear-gradient(180deg, #212529, 75%, #004770); */
 }
 
+header {
+  height: 100vh;
+}
+
 section {
   text-align: left;
   height: 750px;
-  /* width: 100%; */
 }
 
 /* section.hero {
@@ -250,6 +253,7 @@ section.who {
 .who p {
   line-height: 2;
   padding-top: 20px;
+  margin-bottom: 30px;
 }
 .who img {
   border-color: black;
@@ -261,12 +265,12 @@ section.who {
 section.works {
   padding: 150px 100px 0px 100px;
   text-align: right;
-  overflow: hidden;
 }
 
 .works p {
   line-height: 2;
   padding-top: 20px;
+  margin-bottom: 30px;
   text-align: right;
 }
 
@@ -332,16 +336,15 @@ img.weather {
 }
 
 section.dictionary-app {
-  padding: 100px 100px 100px 100px;
-
+  padding: 100px 100px 150px 100px;
 }
-
 img.dictionary {
   opacity: 0.8;
   border-radius: 20px;
   margin-left: 40px;
   margin-top: 100px;
 }
+
 .portfolio-header {
   padding-bottom: 50px;
 }
@@ -459,10 +462,16 @@ a.email-link:hover {
     margin: 35px;
   }
 
+  .hero img:hover {
+    transform: scale(1.15);
+  }
+
   h1 {
     padding-bottom: 10px;
     font-size: 45px;
     line-height: 1.25;
+    text-align: left !important;
+    /* margin-left: 10px; */
   }
 
   h2 {
@@ -471,6 +480,8 @@ a.email-link:hover {
 
   h3 {
     font-size: 14px;
+    text-align: left !important;
+    /* margin-left: 10px; */
   }
 
   h4 {
@@ -484,14 +495,18 @@ a.email-link:hover {
   }
 
   h6 {
-    margin: 50px;
     font-size: 12px;
+    margin: 50px;
   }
 
   p {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.15em;
+  }
+
+  section {
+    height: 500px;
   }
 
   .page-title {
@@ -510,13 +525,21 @@ a.email-link:hover {
   p.project-description-right {
     text-align: left;
     line-height: 2;
-    margin: 20px;
+    margin: 10px;
   }
 
   p.project-description-left {
     text-align: left;
     line-height: 2;
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .project-links {
+    display: flex;
+  }
+
+  .portfolio-header {
+    padding-bottom: 5px;
   }
 
   section.projects {
@@ -529,6 +552,7 @@ a.email-link:hover {
 
   section.works {
     padding: 100px 50px;
+    margin-bottom: 100px;
   }
 
   section.wine-webpage {
@@ -539,11 +563,16 @@ a.email-link:hover {
   section.weather-app {
     padding: 20px 20px;
     margin: 20px;
+    background: none;
   }
 
   section.dictionary-app {
     padding: 0px 20px;
     margin: 20px;
+  }
+
+  .project-links {
+    margin: 0 auto;
   }
 
   .tools {
@@ -557,11 +586,6 @@ a.email-link:hover {
     margin-top: 10px;
   }
 
-  section {
-    height: 500px;
-    width: 100%;
-  }
-
   .form-group {
     width: 285px;
   }
@@ -571,9 +595,9 @@ a.email-link:hover {
   }
 
   .btn-branding {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
-    padding: 10px 16px;
+    padding: 5px 12px;
     margin-top: 15px;
   }
 
@@ -590,8 +614,13 @@ a.email-link:hover {
   .row {
     text-align: center;
   }
+
   img.about-photo {
     border-radius: 50%;
+  }
+
+  .scroll h6 {
+    margin-bottom: 10px;
   }
 
   .footer {

@@ -472,6 +472,10 @@ a.email-link:hover {
     font-size: 35px;
   }
 
+  .about-container {
+    padding: 30px;
+  }
+
   .project-container {
     padding: 30px;
   }
@@ -532,11 +536,11 @@ a.email-link:hover {
   }
 
   .form-group {
-    width: 300px;
+    width: 285px;
   }
 
   .btn-submit {
-    width: 300px !important;
+    width: 285px !important;
   }
 
   .btn-branding {

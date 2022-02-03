@@ -387,6 +387,7 @@ img.dictionary {
 .contact-section {
   height: 550px;
   width: 100%;
+  margin-bottom: 20px;
 }
 .contact-details {
   font-family: var(--secondary-font);

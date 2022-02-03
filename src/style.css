@@ -261,9 +261,11 @@ section.who {
   border-radius: 50%;
   height: auto;
 }
-/* .certificates {
 
-} */
+section.certifications {
+  padding: 50px;
+  height: 500px;
+}
 
 .certificates img {
   width: 300px;

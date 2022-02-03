@@ -16,7 +16,6 @@ body {
   margin-top: 100px;
   color: white;
   background: #05090e;
-  /* background-image: linear-gradient(180deg, #212529, 75%, #004770); */
 }
 
 header {
@@ -25,7 +24,7 @@ header {
 
 section {
   text-align: left;
-  height: 750px;
+  /* height: 750px; */
 }
 
 /* section.hero {
@@ -264,7 +263,7 @@ section.who {
 
 section.certifications {
   padding: 50px;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .certificates img {
@@ -316,8 +315,20 @@ section.projects {
 .far {
   font-weight: 400;
 }
+
 .skills-text {
   text-align: center;
+}
+
+.skills i {
+  font-size: 40px;
+  padding: 25px;
+  margin: 5px;
+}
+
+section.tools {
+  background-color: #212529;
+  /* height: 350px; */
 }
 
 section.wine-webpage {
@@ -518,9 +529,9 @@ a.email-link:hover {
     letter-spacing: 0.15em;
   }
 
-  section {
+  /* section {
     height: 500px;
-  }
+  } */
 
   .page-title {
     margin-top: 20px;
@@ -560,12 +571,11 @@ a.email-link:hover {
   }
 
   section.who {
-    padding: 100px 50px;
+    padding: 70px 50px 10px 50px;
   }
 
   section.works {
-    padding: 100px 50px;
-    margin-bottom: 100px;
+    padding: 50px 50px 20px 50px;
   }
 
   section.wine-webpage {
@@ -578,21 +588,11 @@ a.email-link:hover {
     margin: 20px;
     background: none;
   }
-  /* img.weather {
-    opacity: 0.8;
-    border-radius: 5px;
-    margin: 20px;
-  } */
 
   section.dictionary-app {
     padding: 0px 20px;
     margin: 20px;
   }
-  /* img.dictionary {
-    opacity: 0.8;
-    border-radius: 10px;
-    margin: 20px;
-  } */
 
   .project-links {
     margin: 0 auto;
@@ -608,6 +608,14 @@ a.email-link:hover {
     padding: 5px 5px;
     margin-top: 10px;
   }
+
+  .certificates img {
+    display: flex;
+    width: 150px;
+    height: auto;
+    border-radius: 15%;
+    margin: 15px;
+}
 
   .form-group {
     width: 285px;
@@ -634,12 +642,28 @@ a.email-link:hover {
     font-size: 14px;
     text-align: center;
   }
+
   .row {
     text-align: center;
+    /* flex-wrap: nowrap; */
   }
 
   img.about-photo {
     border-radius: 50%;
+  }
+
+  .skills {
+    margin: 0 auto;
+  }
+
+  .skills-text {
+    font-size: 10px;
+  }
+
+  .skills i {
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
   }
 
   .scroll h6 {
@@ -653,90 +677,3 @@ a.email-link:hover {
     background-color: #212529;
   }
 }
-
-/* @media (max-width: 768px) {
-  .hero h1 {
-    padding-bottom: 10px;
-    font-size: 45px;
-    line-height: 1.25;
-  }
-
-  .hero h2 {
-    font-size: 18px;
-  }
-
-  .hero h3 {
-    font-size: 12px;
-  }
-
-  h1 {
-    padding-bottom: 10px;
-    font-size: 45px;
-    line-height: 1.25;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 22px;
-  }
-
-  h6 {
-    margin: 50px;
-    font-size: 12px;
-  }
-
-  p {
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.15em;
-  }
-
-  section.who-home {
-    padding: 100px 50px;
-  }
-
-  section.works {
-    padding: 100px 50px;
-  }
-  .btn-branding {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px 16px;
-    margin-top: 15px;
-  }
-  .social {
-    font-size: 16px;
-  }
-} */
-
-/* 
-.cards .card {
-  box-shadow: #87898a 0px 0px 5px;
-}
-
-.card a {
-  text-decoration: none;
-  color: var(--typical-grey);
-}
-.card img {
-  border-radius: 0px;
-}
-.card-link {
-  text-decoration: none;
-  color: var(--typical-grey);
-}
-.card-link:hover {
-  text-decoration: none;
-  color: var(--hover-color);
-} */

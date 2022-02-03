@@ -247,7 +247,7 @@ a.active {
 section.who {
   padding: 150px 100px 100px 100px;
   background-color: #212529;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .who p {
@@ -260,6 +260,16 @@ section.who {
   box-shadow: #252525 4px 4px 5px;
   border-radius: 50%;
   height: auto;
+}
+/* .certificates {
+
+} */
+
+.certificates img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10%;
+  margin: 15px;
 }
 
 section.works {
@@ -566,11 +576,21 @@ a.email-link:hover {
     margin: 20px;
     background: none;
   }
+  /* img.weather {
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 20px;
+  } */
 
   section.dictionary-app {
     padding: 0px 20px;
     margin: 20px;
   }
+  /* img.dictionary {
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 20px;
+  } */
 
   .project-links {
     margin: 0 auto;

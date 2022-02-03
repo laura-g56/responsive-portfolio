@@ -255,10 +255,11 @@ section.who {
   margin-bottom: 30px;
 }
 .who img {
-  border-color: black;
-  box-shadow: #252525 4px 4px 5px;
+  box-shadow: #252525 5px 5px 15px;
+  border: black;
   border-radius: 50%;
   height: auto;
+  width: 350px;
 }
 
 section.certifications {

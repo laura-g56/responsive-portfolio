@@ -53,8 +53,8 @@
     </div>
   </nav>
 
-  <div class="container project-container">
-    <div class="portfolio-header">
+  <div class="container-fluid project-container">
+    <div class="portfolio-header container">
       <h1 class="page-title text-uppercase">Portfolio of Works</h1>
       <h3 class="projects-h3">HTML | CSS | JavaScript | React</h3>
 
@@ -78,7 +78,7 @@
                 <a href="#wine-webpage" class="btn btn-branding d-none d-md-block">Let's go!</a>
               </div>
               <br />
-              <hr class="d-md-none d-block "/>
+              <hr class="d-md-none d-block"/>
             </div>
           </div>
         </div>
@@ -91,6 +91,12 @@
         <div class="row h-100 mb-5">
           <div class="col-md-6">
             <h5>Wine Landing Page</h5>
+            <!-- <div class="d-flex flex-wrap"> -->
+              <div class="box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="logo"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"class="logo" />
+              </div>
             <p class="project-description-left">
               This was my first coding project! As part of my SheCodes Basics workshop, I designed and coded a desktop webpage about wine - 
               a simple landing page that uses JS functionalities to create user interaction.
@@ -114,12 +120,20 @@
       <section class="projects weather-app" id="weather-app">
         <div class="row h-100">
           <div class="col-md-6">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-items-start">
               <img src="/images/weather.png" class="img-fluid weather d-none d-md-block" alt="weather project pic" height="600" width="600" />
             </div>
           </div>
           <div class="col-md-6 mb-4">
             <h5>Weather App</h5>
+            <div class="box">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="logo" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="logo" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" class="logo" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="logo" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="logo" />      
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="logo" />
+            </div>
             <p class="project-description-left">
               Using real time weather data from the OpenWeather API, this weather application displays the current weather conditions,
               a 4 day forecast for any city that is searched, and is able to use the user's location data to detect their local weather forecast. 
@@ -144,11 +158,18 @@
         <div class="row h-100">
           <div class="col-md-6">
             <h5>Dictionary App</h5>
+              <div class="box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" class="logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="logo" />
+              </div>
             <p class="project-description-left">
-              Another project as part of the SheCodes React course was an interactive dictionary app.
+              Another project as part of the SheCodes React course was an interactive dictionary application.
               As with the weather forecast app, the dictionary app required the use of an API to source
-              real time data. From using if-else statements to event listeners, amongst many other 
-              new skills learnt, these projects were built using a professional workflow model from start to finish,
+              real time data. These projects were built using a professional workflow model from start to finish,
               and were hosted online via Netlify.
             </p>
             <div class="project-links">
@@ -165,9 +186,11 @@
               <img src="/images/dictionary.png" class="img-fluid dictionary d-none d-md-block" alt="dictionary project pic" height="600" width="600" />
             </div>
           </div>
+          
           <a href="#top" class="scroll">
             <h6 class="text-center pb-4"> Back to top ↑</h6>
           </a>
+
         </div>
       </section>
     </div>
@@ -207,3 +230,30 @@
 </body>
 
 </html>
+
+            <!-- <div class="d-flex flex-wrap justify-content-start">
+                          <div class="col-md-2 text-center mt-1">
+                            <i class="fab fa-html5 tools-icon" aria-hidden="true"></i>
+                            <p class="skills-text">HTML</p>
+                          </div>
+                          <div class="col-md-2 text-center mt-1">
+                            <i class="fab fa-css3-alt tools-icon" aria-hidden="true"></i>
+                            <p class="skills-text">CSS</p>
+                          </div>
+                          <div class="col-md-2 text-center mt-1">
+                            <i class="fab fa-js-square tools-icon" aria-hidden="true"></i>
+                            <p class="skills-text">JavaScript</p>
+                          </div>
+                          <div class="col-md-2 text-center mt-1">
+                            <i class="fas fa-cogs tools-icon" aria-hidden="true"></i>
+                            <p class="skills-text">API</P>
+                          </div>
+                          <div class="col-md-2 text-center mt-1">
+                            <i class="fab fa-bootstrap tools-icon" aria-hidden="true"></i>
+                            <p class="skills-text">Bootstrap</p>
+                          </div>
+                          <div class="col-md-2 text-center mt-1">
+                            <i class="fab fa-github tools-icon" aria-hidden="true"></i>
+                            <p class="skills-text">GitHub</p>
+                          </div>
+                        </div> -->

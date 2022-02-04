@@ -5,6 +5,7 @@
   --secondary-color: #f65282;
   --hover-color: #f0a958;
   --typical-grey: #9c9d9e;
+  --branding-gray: #212529;
 }
 
 html {
@@ -13,9 +14,9 @@ html {
 }
 
 body {
-  margin-top: 100px;
-  color: white;
+  /* margin-top: 100px; */
   background: #05090e;
+  color: white;
 }
 
 header {
@@ -27,11 +28,10 @@ section {
   /* height: 750px; */
 }
 
-/* section.hero {
-  background-image: url("/images/coloured-bubbles.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+.page-title {
+  margin-top: 150px;
+  font-size: 50px;
+}
 
 .container-fluid {
   padding-left: 0rem;
@@ -149,22 +149,11 @@ p {
 }
 
 img {
-  /* border-radius: 15px; */
   opacity: 0.9;
 }
 
 img.about-photo {
   border-radius: 50%;
-}
-
-/* .image-crop img {
-  border-radius: 235px !important;
-  margin-left: -250px;
-} */
-
-.page-title {
-  margin-top: 50px;
-  font-size: 50px;
 }
 
 /* .navbar::after {
@@ -245,8 +234,7 @@ a.active {
 
 section.who {
   padding: 150px 100px 100px 100px;
-  background-color: #212529;
-  /* overflow: hidden; */
+  background-color: #141618;
 }
 
 .who p {
@@ -264,7 +252,6 @@ section.who {
 
 section.certifications {
   padding: 50px;
-  /* height: 500px; */
 }
 
 .certificates img {
@@ -302,16 +289,6 @@ section.projects {
   padding-bottom: 100px;
 } */
 
-.tools {
-  padding: 50px 100px 50px 100px;
-  margin-top: 20px;
-}
-.tools-icon {
-  color: var(--primary-color);
-  font-size: 45px;
-  padding: 15px 15px;
-  margin-top: 10px;
-}
 .fab,
 .far {
   font-weight: 400;
@@ -319,7 +296,7 @@ section.projects {
 
 .skills .fab,
 .skills .fas {
-  color: var(--primary-color);
+  color: whitesmoke;
 }
 
 .skills-text {
@@ -332,18 +309,81 @@ section.projects {
   margin: 5px;
 }
 
-section.tools {
-  background-color: #212529;
-  /* height: 350px; */
+.tools {
+  padding: 50px 100px 50px 100px;
+  margin-top: 20px;
+  background-color: #141618;
+  /* clip-path: polygon(0 0, 100% 20%, 100% 83%, 0 100%); */
+}
+/* .tools-icon {
+  font-size: 45px;
+  padding: 15px 15px;
+  margin-top: 10px;
+} */
+
+.box {
+    display: flex;
+    justify-content:start;
+    margin-top: 20px;
+}
+img.logo {
+    max-width: 50px;
+    padding: 5px;
+}
+.logo {
+    max-width: 70px;
+}
+img, svg {
+    vertical-align: middle;
 }
 
+.wine-webpage .tools-icon {
+  font-size: 35px;
+  padding: 15px 15px;
+  margin-top: 10px;
+}
+.wine-webpage .skills-text {
+  font-size: 12px;
+  padding: 0 10px 0 10px;
+}
+
+.weather-app .tools-icon {
+  font-size: 30px;
+  /* padding: 10px 10px; */
+  margin-top: 20px;
+}
+.weather-app .skills-text {
+  font-size: 12px;
+  padding: 0 10px 0 10px;
+}
+
+.dictionary-app .tools-icon {
+  font-size: 30px;
+  /* padding: 10px 10px; */
+  margin-top: 20px;
+}
+.dictionary-app .skills-text {
+  font-size: 12px;
+  padding: 0 10px 0 10px;
+}
+
+/* .container-fluid .wine-webpage {
+  clip-path: polygon(0% 0%, 100% 16%, 100% 75%, 61% 100%, 0 87%);
+  background-color: #132743;
+} */
+
 section.wine-webpage {
-  padding: 150px 100px 100px 100px;
-  margin-left: 50px;
+  padding: 150px 100px 100px 150px;
+  /* margin-left: 50px; */
 }
 img.wine {
   opacity: 0.75;
   border-radius: 10px;
+}
+
+.container-fluid .weather-app {
+  clip-path: polygon(0 10%, 100% 0, 100% 85%, 0% 100%);
+  background-color: #141618;
 }
 
 section.weather-app {
@@ -366,7 +406,7 @@ img.dictionary {
   opacity: 0.8;
   border-radius: 20px;
   margin-left: 40px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .portfolio-header {
@@ -399,6 +439,8 @@ img.dictionary {
 
 .project-container {
   margin-right: 50px;
+  background-color: #141618;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 70%);
 }
 
 .project-container h1 {
@@ -464,6 +506,10 @@ a.email-link:hover {
 /* RESPONSIVENESS */
 
 @media (max-width: 576px) {
+  body {
+    margin-top: 65px;
+  }
+
   .hero {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -545,8 +591,10 @@ a.email-link:hover {
 
   .project-container {
     padding: 30px;
+    background: none;
+    clip-path: none;
   }
-
+  
   p.project-description-right {
     text-align: left;
     line-height: 2;
@@ -565,6 +613,11 @@ a.email-link:hover {
 
   .portfolio-header {
     padding-bottom: 5px;
+  }
+
+  .container-fluid .weather-app {
+    clip-path: none;
+    background: none;
   }
 
   section.projects {

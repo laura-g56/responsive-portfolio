@@ -326,6 +326,12 @@ section.projects {
     justify-content:start;
     margin-top: 20px;
 }
+
+.box i {
+  font-size: 42px;
+  padding: 3px;
+}
+
 img.logo {
     max-width: 50px;
     padding: 5px;
@@ -333,8 +339,10 @@ img.logo {
 .logo {
     max-width: 70px;
 }
+
 img, svg {
     vertical-align: middle;
+    padding: 0 4px 0 3px;
 }
 
 .wine-webpage .tools-icon {
@@ -400,7 +408,7 @@ img.weather {
 }
 
 section.dictionary-app {
-  padding: 100px 100px 150px 100px;
+  padding: 100px 100px 75px 100px;
 }
 img.dictionary {
   opacity: 0.8;

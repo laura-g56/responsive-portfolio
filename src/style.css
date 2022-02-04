@@ -262,7 +262,7 @@ section.certifications {
 }
 
 section.works {
-  padding: 150px 100px 0px 100px;
+  padding: 150px 100px 50px 100px;
   text-align: right;
 }
 
@@ -322,27 +322,28 @@ section.projects {
 } */
 
 .box {
-    display: flex;
-    justify-content:start;
-    margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
 }
 
-.box i {
+/* .box i {
   font-size: 42px;
   padding: 3px;
-}
+} */
 
 img.logo {
-    max-width: 50px;
-    padding: 5px;
+  max-width: 50px;
+  padding: 5px;
 }
 .logo {
-    max-width: 70px;
+  max-width: 70px;
 }
 
-img, svg {
-    vertical-align: middle;
-    padding: 0 4px 0 3px;
+img,
+svg {
+  vertical-align: middle;
+  padding: 0 4px 0 3px;
 }
 
 .wine-webpage .tools-icon {
@@ -408,8 +409,9 @@ img.weather {
 }
 
 section.dictionary-app {
-  padding: 100px 100px 75px 100px;
+  padding: 100px 100px 30px 100px;
 }
+
 img.dictionary {
   opacity: 0.8;
   border-radius: 20px;
@@ -519,7 +521,7 @@ a.email-link:hover {
   }
 
   .hero {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
 
@@ -602,7 +604,7 @@ a.email-link:hover {
     background: none;
     clip-path: none;
   }
-  
+
   p.project-description-right {
     text-align: left;
     line-height: 2;
@@ -637,7 +639,7 @@ a.email-link:hover {
   }
 
   section.works {
-    padding: 50px 50px 20px 50px;
+    padding: 50px 50px 10px 50px;
   }
 
   section.wine-webpage {
@@ -661,7 +663,7 @@ a.email-link:hover {
   }
 
   .tools {
-    padding: 50px 50px 50px 50px;
+    padding: 50px 20px 50px 20px;
   }
 
   .tools-icon {
@@ -677,6 +679,12 @@ a.email-link:hover {
     height: auto;
     border-radius: 15%;
     margin: 15px;
+  }
+
+  img.logo {
+    max-width: 35px;
+    height: 35px;
+    padding: 5px;
   }
 
   .form-group {

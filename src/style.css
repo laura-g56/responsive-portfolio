@@ -607,7 +607,7 @@ a.email-link:hover {
   p.project-description-right {
     text-align: left;
     line-height: 2;
-    margin: 10px;
+    /* margin: 10px; */
   }
 
   p.project-description-left {

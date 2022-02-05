@@ -340,8 +340,7 @@ img.logo {
   max-width: 70px;
 }
 
-img,
-svg {
+img {
   vertical-align: middle;
   padding: 0 4px 0 3px;
 }

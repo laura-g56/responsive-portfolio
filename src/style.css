@@ -106,22 +106,6 @@ img {
   padding: 0 4px 0 3px;
 }
 
-.btn-branding {
-  border-radius: 50px;
-  background: var(--primary-color);
-  color: black;
-  font-family: var(--main-heading-font);
-  font-size: 18px;
-  font-weight: 500;
-  padding: 12px 18px;
-  margin-top: 36px;
-}
-
-.btn-branding:hover {
-  color: white;
-  background-color: var(--typical-grey);
-}
-
 /* ---NAVAGATION BAR--- */
 
 .navbar-brand {
@@ -442,6 +426,22 @@ img.dictionary {
 .dictionary-app .skills-text {
   font-size: 12px;
   padding: 0 10px 0 10px;
+}
+
+.btn-branding {
+  border-radius: 50px;
+  background: var(--primary-color);
+  color: black;
+  font-family: var(--main-heading-font);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 18px;
+  margin-top: 36px;
+}
+
+.btn-branding:hover {
+  color: white;
+  background-color: var(--typical-grey);
 }
 
 /* ---CONTACT--- */
